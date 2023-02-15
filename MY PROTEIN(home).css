@@ -1,0 +1,203 @@
+body{
+    margin:0;
+}
+#div-1{
+    background-color:#f2f2f2;
+    display:block;
+    padding: 10px;
+    text-align: right;
+    height: 10px;
+}
+.main{
+    position: sticky;
+    top: 0;
+    margin-top: -130px;
+    background-color: white;
+    width: 1279.8px;
+    height: 120px;
+}
+img{
+    border-radius: 500px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    box-shadow: black;
+    margin-top: -2.5px;
+}
+span{
+    float:right;
+    font-size: 13px;
+    margin-right: 25px;
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-weight: 400;
+    color: #4d4f53;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+#logo{
+    float:left;
+    width:210px;
+    height: 45px;
+    padding-top: 15px;
+}
+#search{
+    margin-top: 15px;
+    margin-left: 160px;
+    height: 42px;
+    width: 400px;
+}
+input::placeholder{
+    font-size: 16px;
+    color: #c0c0c0;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+#div-2{
+    position: relative;
+}
+.m-logo{
+    position: absolute;
+    left: 57.7%;
+    top: 28%;
+    height: 36px;
+    width: 38px;
+    margin-top: 15.5px;
+    margin-right: 600px;
+    border-radius: 0;
+}
+
+.account{
+    position:absolute;
+    height:33px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 210px;
+    
+}
+.basket{
+    position: absolute;
+    height:36px;
+    width:95px;
+    margin-top:15px;
+    margin-left: 375px;
+    
+}
+.flexwraper{
+    margin-top: 15px;
+    width: 1280px;
+    height:40px;
+    background-color: #028190;
+    position: absolute;
+    padding:0%;
+    display: flex;
+    flex-shrink: 8px;
+    font-size: 16px;
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+}
+.flew-child{
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    margin-left: 18px;
+    margin-top: 3px;
+    color:#f6fafb;
+    padding: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    padding: 8px 16px;
+}
+.flew-child:hover{
+    background-color: #f2f2f2;
+    color:#4d4f53;
+    padding: 8px 16px;
+}
+.div-3{
+    background-color: #f2f2f2;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 4cm;
+    height: 120px;
+}
+.telegram{
+    margin-left: 54px;
+    margin-top: 10px;
+    height:36px;
+    width: 465px;
+}
+.manufacture{
+    margin-left: 18px;
+    margin-top: -30px;
+    height:32px;
+    width: 475px;
+}
+.delivery{
+    margin-left: 1080px;
+    margin-top: -30px;
+    height:21px;
+    width: 150px;
+    border-top-right-radius: 0px;
+}
+.mailbox{
+    height:26px;
+    width: 265px;
+    margin-left: 510px;
+    margin-top: 28px;
+
+}
+.winter{
+    border-radius: 0px;
+    width: 1279.8px;
+    height: 390.66px;
+}
+.div-4{
+    display: flex;
+    position: absolute;
+    padding: 0%;
+    align-items: center;
+    height: 90px;
+    width: 1280px;
+    margin-top: 40px;
+}
+.brandLogos_image{
+    width: 178px;
+    height: 88px;
+    border-radius: 0px;
+    padding: 10px;
+    margin-left: 2px;
+    align-items: center;
+    margin-top: 70px;
+    opacity: .8;
+}
+.brandLogos_image:hover{
+    opacity: 1;
+    
+}
+.deal{
+    width:1300px;
+    height: 58px;
+    text-align: center;
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    color: #1a1a1a;
+    letter-spacing: -.7px;
+    margin-bottom: 24px;
+    margin-top: 215px;
+}
+.div-5{
+    font-size: 25.76px;
+    padding: 4px 16px;
+    height: 30px;
+    width: 215px;
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    text-align: center;
+    font-weight: 380;
+    color:#008190;
+    background-color: #d5d6d2;
+    border-bottom: 3.8px solid #008190;
+    border-top: 6px solid #d5d6d2;
+    align-items: center;
+    margin-left: 524px;
+    margin-top: -11;
+}
+
