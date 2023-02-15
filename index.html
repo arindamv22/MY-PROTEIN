@@ -2,6 +2,7 @@
     <head>
 <link href="MY PROTEIN(home).css" rel="stylesheet"/>
 <script src="https://kit.fontawesome.com/b82dbd7e4b.js" crossorigin="anonymous"></script>
+<link rel="manifest" href="manifest.json">
     </head>
     <body >
         <div class="main">
@@ -45,5 +46,12 @@
          <br>
          <h3 class="deal">DEALS OF THE DAY</h3>
          <div class="div-5">While Stock Lasts</div>
+         <script>
+            window.addEventListener("load", () => {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service.js");
+      }
+    });
+        </script>
     </body>
 </html>
